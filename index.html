@@ -216,7 +216,7 @@
     <div class="container">
         <div class="header">
             <h1>🖥️ Infrastructure Status Board</h1>
-            <div class="subtitle">Gaetan Pin - Real-time System Status</div>
+            <div class="subtitle">Jodel Maleng - Real-time System Status</div>
         </div>
 
         <div class="timestamp">
@@ -261,30 +261,30 @@
     <script>
         // Application list
         const applications = [
-            { name: "Vulcan Gitlab", status: "down" },
+            { name: "Vulcan Gitlab", status: "up" },
             { name: "APP CI Pipelines", status: "up" },
             { name: "Splunk-AWS-DTRA", status: "up" },
             { name: "Grafana-On-Prem", status: "up" },
-            { name: "Grafana-DTRA", status: "down" },
+            { name: "Grafana-DTRA", status: "up" },
             { name: "PrismaCloud-On-Prem", status: "up" },
             { name: "PrismaCloud-DTRA", status: "up" },
             { name: "Rancher-AWS", status: "up" },
             { name: "Coder-On-Prem", status: "up" },
             { name: "Sonarqube-DEPOT", status: "up" },
             { name: "MINES-env3", status: "up" },
-            { name: "MINES-env2", status: "up" },
+            { name: "MINES-env2", status: "maitenance" },
             { name: "MINES-env1", status: "up" },
             { name: "MINES-TEST", status: "up" },
-            { name: "MINES-STAGING", status: "up" },
+            { name: "MINES-STAGING", status: "maintenance" },
             { name: "MINES-PROD", status: "up" },
             { name: "Keycloak-env3", status: "down" },
             { name: "Keycloak-env2", status: "up" },
-            { name: "Keycloak-env1", status: "up" },
+            { name: "Keycloak-env1", status: "down" },
             { name: "Keycloak-test", status: "up" },
             { name: "Keycloak-coresvcs", status: "up" },
             { name: "Keycloak-prod", status: "up" },
             { name: "Firewall-0", status: "up" },
-            { name: "Firewall-1", status: "up" }
+            { name: "Firewall-1", status: "down" }
         ];
 
         // Function to get status icon
